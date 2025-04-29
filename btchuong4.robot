@@ -32,6 +32,6 @@ Invalid Login
     Click Button    xpath=//button[@type="submit"]
     Wait Until Page Contains    Invalid credentials    timeout=10s
     Page Should Contain    Invalid credentials
-    Log To Console     Đăng nhập không hợp lệ - đúng như mong đợi
+    Log To Console     Đăng nhập không hợp lệ 
     Sleep    6s    
     Close Browser
